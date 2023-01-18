@@ -1,0 +1,19 @@
+{
+  "name": "work-based-problem-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test-util.js",
+  "scripts": {
+    "test": "mocha ./test/spec --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/laurenperez-ga/template-module.git"
+  },
+  "author": "Lauren Perez",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
