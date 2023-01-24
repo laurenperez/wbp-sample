@@ -4,13 +4,13 @@
 
 - 
 
-## Requirements (To Solve)
+## Requirements (Tickets)
 
 1)
 2)
 3)
 
-## Steps to Complete (Tickets)
+## Steps to Complete (To Solve)
 
 1)
 2)
