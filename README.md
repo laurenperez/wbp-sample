@@ -1,4 +1,4 @@
-# TITLE
+# Array Iterator Methods
 
 ## Scenario (Problem Context)
 
@@ -18,13 +18,14 @@
 
 ## Alignment with Learning Objectives
 
-- 
-- 
-- 
+Students Will Be Able To:
+  - Identify the Purpose (Use Case) of Several Useful Array Iterator Methods
 
-## Test Code Validation
+
+## Test Setup
 
 - Clone this repo `git clone https://github.repo.url/`
 - Install dependencies `npm install`
 - Run Tests to validate code `npm run test`
+- Expect tests to fail on first run, before styling changes are made
 - Confirm that all tests are passing to complete module.
