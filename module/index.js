@@ -11,7 +11,7 @@ important to remove any duplicate records. Fortunately for you, all duplicates
 in the system have already been marked with `"Open - Dup"` in the `"status"` field. 
 Return the  complete list of data with all duplicate records removed. */
 
-module.exports.removeDuplicateRecords = function (data) {};
+const removeDuplicateRecords = function (data) {};
 
 // Exercise 2
 
@@ -20,7 +20,7 @@ module.exports.removeDuplicateRecords = function (data) {};
  marked as `"police district": "9"` should be updated to `"police district": "12"`. 
  Return the complete list of data with the required updates. */
 
-module.exports.updatedPoliceDistrict = function (data) {};
+const updatedPoliceDistrict = function (data) {};
 
 // Exercise 3
 
@@ -30,7 +30,7 @@ requested a condensed version of the data with only the following
 fields `service_request_number, street_address, zip_code, latitude, longitude` 
 Return the complete list of data, with each object containing only the requested fields. */
 
-module.exports.extractLocationData = function (data) {};
+const extractLocationData = function (data) {};
 
 // Exercise 4
 
@@ -40,7 +40,7 @@ technicians are usually only provided with an id and an address from the dispatc
 The dept has asked that you create a quick lookup tool that allows them to 
 request the full record details by providing the service id number. */
 
-module.exports.findById = function (data, id) {};
+const findById = function (data, id) {};
 
 // Exercise 5
 
@@ -49,4 +49,4 @@ how many outages were reported in each zip code. This information is very
 important and could be used to determine increased funding to areas 
 that are currently under serviced. */
 
-module.exports.numberByZip = function (data) {};
+const numberByZip = function (data) {};

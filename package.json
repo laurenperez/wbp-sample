@@ -4,7 +4,7 @@
   "description": "",
   "main": "test-util.js",
   "scripts": {
-    "test": "mocha ./test/spec --bail"
+    "test": "mocha ./test/spec"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "devDependencies": {
     "chai": "^4.3.7",
     "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "rewire": "^6.0.0"
   }
 }
